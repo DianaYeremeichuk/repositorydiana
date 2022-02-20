@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // 1
+    let name = prompt('Ваше имя');
+    alert('Привет, ' + name + '!');
+
+    // 2
+    let year = prompt ('Укажите Ваш год рождения')
+    let nowyear = 2021
+    let age = nowyear - year
+    alert('Вам ' + age + ' лет');
+
+    // 3
+    let square = prompt('Укажите длину стороны квадрата');
+    let othersquare = square * 4
+    console.log(othersquare)
+    alert('Периметр квадрата ' + othersquare);
+
+    // 4
+    let radius = prompt('Укажите радиус окружности');
+    let otherradius = radius * radius
+    console.log(otherradius);
+    let squareradius = otherradius * 3.14
+    alert('Площадь окружности ' + squareradius);
+
+    //5
+    let distance = prompt('Укажите расстояние в км')
+    let time = prompt('Укажите время за сколько часов Вы желаете доехать')
+    let speed = distance / time
+    console.log(speed)
+    alert('Вам необходимо двигаться ' + speed + ' км/час, чтобы успеть вовремя')
+
+    // 6
+    let dollar = prompt('Укажите колличество долларов');
+    let otherdollar = dollar *  0.88
+    console.log(otherdollar);
+    alert(otherdollar + ' Евро ');
+
+    // 7
+    let volume = prompt('Укажите обьем флешки в Гб');
+    let othervolume = volume *  1000 / 820
+    console.log(othervolume);
+    alert('У вас поместится файлов ' + othervolume);
+
+    //8
+    let money = prompt('Укажите сумму денег в Вашем кошельке');
+    let sum = prompt('Укажите стоимость шоколадки')
+    let all = money / sum
+    console.log(all);
+    let otherall = all * sum
+    console.log(otherall)
+    let balance = money - otherall
+    alert('Вы можете купить ' + all + ' и ваш остаток ' + balance);
+</script>
+
+</body>
+</html>
